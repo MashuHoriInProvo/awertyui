@@ -1,0 +1,65 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkslategrey;
+    background-image: url(https://wallpaperaccess.com/full/2842069.jpg);
+    background-repeat: repeat;
+    color: black;
+}
+img{
+    display: block;
+    border: 2px solid black;
+    padding: 10px;
+    
+}
+a{
+    color: blue;
+}
+a:visited{   
+    color: blue;
+}
+li{
+    font-style: italic;
+}
+li:hover{ /*カーソルを合わせたときに少し大きくする*/
+    font-size: 105%;
+    text-decoration: underline;
+    background-color: blue;
+}
+.gangnam{
+    font-family: chiller;
+    font-style: italic;
+}
+
+.common{
+    border: 5px solid black;
+    position: absolute;
+}
+
+.nav{
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: aquamarine;
+
+}
+
+.footer{
+    position: fixed;
+    background-color: salmon;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    text-align: center;
+}
+
+.content{
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.gallery img{
+    display: inline;
+    width: 250px;
+}
